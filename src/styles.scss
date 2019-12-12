@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  .app-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+
+    .form-container {
+      position: relative;
+      margin: 0 auto;
+      width: 100%;
+      background: green;
+
+      .login-form {
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          }
+      }
+      
+      
+    }
+  }
+}
